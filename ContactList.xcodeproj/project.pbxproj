@@ -11,6 +11,12 @@
 		74C7AF2628511E130077ED43 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C7AF2528511E130077ED43 /* ContentView.swift */; };
 		74C7AF2828511E140077ED43 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74C7AF2728511E140077ED43 /* Assets.xcassets */; };
 		74C7AF2B28511E140077ED43 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74C7AF2A28511E140077ED43 /* Preview Assets.xcassets */; };
+		74C7AF3228511E390077ED43 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C7AF3128511E390077ED43 /* Person.swift */; };
+		74C7AF3428511E6C0077ED43 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C7AF3328511E6C0077ED43 /* DataManager.swift */; };
+		74C7AF3628513D2F0077ED43 /* ContactsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C7AF3528513D2F0077ED43 /* ContactsList.swift */; };
+		74C7AF3828513D450077ED43 /* NumbersList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C7AF3728513D450077ED43 /* NumbersList.swift */; };
+		74C7AF3A285144720077ED43 /* DetailInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C7AF39285144720077ED43 /* DetailInfo.swift */; };
+		74C7AF3C2851F53C0077ED43 /* ContactInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C7AF3B2851F53C0077ED43 /* ContactInfo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +25,12 @@
 		74C7AF2528511E130077ED43 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		74C7AF2728511E140077ED43 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		74C7AF2A28511E140077ED43 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		74C7AF3128511E390077ED43 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		74C7AF3328511E6C0077ED43 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		74C7AF3528513D2F0077ED43 /* ContactsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsList.swift; sourceTree = "<group>"; };
+		74C7AF3728513D450077ED43 /* NumbersList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumbersList.swift; sourceTree = "<group>"; };
+		74C7AF39285144720077ED43 /* DetailInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailInfo.swift; sourceTree = "<group>"; };
+		74C7AF3B2851F53C0077ED43 /* ContactInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactInfo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +63,14 @@
 		74C7AF2228511E130077ED43 /* ContactList */ = {
 			isa = PBXGroup;
 			children = (
+				74C7AF3128511E390077ED43 /* Person.swift */,
+				74C7AF3328511E6C0077ED43 /* DataManager.swift */,
+				74C7AF3B2851F53C0077ED43 /* ContactInfo.swift */,
 				74C7AF2328511E130077ED43 /* ContactListApp.swift */,
 				74C7AF2528511E130077ED43 /* ContentView.swift */,
+				74C7AF3528513D2F0077ED43 /* ContactsList.swift */,
+				74C7AF39285144720077ED43 /* DetailInfo.swift */,
+				74C7AF3728513D450077ED43 /* NumbersList.swift */,
 				74C7AF2728511E140077ED43 /* Assets.xcassets */,
 				74C7AF2928511E140077ED43 /* Preview Content */,
 			);
@@ -137,6 +155,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74C7AF3A285144720077ED43 /* DetailInfo.swift in Sources */,
+				74C7AF3628513D2F0077ED43 /* ContactsList.swift in Sources */,
+				74C7AF3228511E390077ED43 /* Person.swift in Sources */,
+				74C7AF3828513D450077ED43 /* NumbersList.swift in Sources */,
+				74C7AF3C2851F53C0077ED43 /* ContactInfo.swift in Sources */,
+				74C7AF3428511E6C0077ED43 /* DataManager.swift in Sources */,
 				74C7AF2628511E130077ED43 /* ContentView.swift in Sources */,
 				74C7AF2428511E130077ED43 /* ContactListApp.swift in Sources */,
 			);
@@ -275,6 +299,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -284,7 +309,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -304,6 +329,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -313,7 +339,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
